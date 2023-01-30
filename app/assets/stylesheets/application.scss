@@ -1,0 +1,47 @@
+$dark-green: #07484A;
+$light-green: #70908B;
+$white-color: #FFFFFF;
+$light-beige: #ebe1d8;
+$lime-green: #F3F6F5;
+$light-grayish: #E0F6F1 ;
+$light-grayish-blue: #E0EFF6;
+
+@import 'mobile';
+@import 'tablet';
+@import 'laptop';
+@import 'desktop';
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+   
+}
+ul::-webkit-scrollbar {
+    background-color: #07484A;
+    width: 1px;
+}
+
+.product-color-1{
+ background-color:  #CAF3E5;
+}
+
+
+.product-color-2{
+    background-color: #E0EFF6;
+
+}
+
+.product-color-3{
+    background-color:  #EEEBFF;
+
+}
+   
+.product-color-4{
+    background-color: #FFF4E7;
+    
+}
+   
+   
